@@ -1,0 +1,12 @@
+Source: ros-humble-async-web-server-cpp
+Section: misc
+Priority: optional
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libssl-dev, python3-websocket <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-launch-testing <!nocheck>, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/async_web_server_cpp
+Standards-Version: 3.9.2
+
+Package: ros-humble-async-web-server-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-humble-ros-workspace
+Description: Asynchronous Web/WebSocket Server in C++
